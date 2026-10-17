@@ -1,28 +1,27 @@
 ---
 layout: project
 title: "Parametric Study of Metaheuristics and Geometric Parameterizations for Airfoil Optimization"
-subtitle: "AI-driven aerodynamic design and shape optimization"
 
 challenge: >
-  [Describe the engineering problem, why it matters, and the limitations
-  of existing approaches.]
+  In Airfoil Shape Optimization (ASO), the choice of optimizer cannot be made independently of the choice of geometric parameterization method, yet the interactions of these two components of an ASO framework have been undercharacterized in past literature.
 
 approach: >
-  [Describe the optimization methods, geometric parameterizations,
-  computational tools, and experiments used.]
+  Metaheuristic search algorithms (MSAs) are investigated for early-stage aerodynamic optimization due to their parallelizability and compatibility with surrogate models. Five MSAs, spanning evolutionary- and swarm-based approaches, are evaluated alongside five geometric parameterization methods, spanning constructive and deformative approaches. A deep learning surrogate model provides low-cost aerodynamic predictions, enabling near-instantaneous evaluations. The resulting 25 optimizer–parameterization combinations are compared across two case studies: partially and fully constrained drag minimization. Results are averaged across random seeds to account for the stochastic nature of MSAs. 
 
 contribution: >
-  [Specify your individual contributions and the aspects of the project
-  you were responsible for.]
+  I developed the full codebase from end to end, conducted all studies, and wrote the full manuscript.
 
 figures:
-  - image: /images/projects/airfoil-optimization/placeholder.png
-    caption: "Placeholder for an airfoil geometry or optimization result."
+  - image: /images/projects/airfoil-optimization/airfoils_25_constrained.pdf
+    caption: "Visual depiction of the 25 best-performing airfoils across seeds in the fully-constrained case study"
+    alt: "Placeholder for airfoil optimization visualization"
+
+  - image: /images/projects/airfoil-optimization/matrix_constrained.pdf
+    caption: "Obtained performance matrix in the fully-constrained case study"
     alt: "Placeholder for airfoil optimization visualization"
 
 results: >
-  [Present key findings, comparisons, plots, or quantitative results when available.]
-
+  The benchmark reveals that optimizer performance depends strongly on the geometric parameterization method and the imposed design constraints. CMA-ES consistently performs well, while the fastest-converging methods do not necessarily yield the best aerodynamic solutions. The findings highlight the importance of jointly selecting optimizers and parameterizations for effective airfoil optimization.
 repository: ""
 ---
 
