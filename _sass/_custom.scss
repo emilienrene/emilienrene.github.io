@@ -123,3 +123,41 @@ select {
   background: #000 !important;
   background-color: #000 !important;
 }
+
+/* Navigation: black in dark mode */
+html[data-theme="dark"] .masthead,
+html[data-theme="dark"] .masthead__inner-wrap,
+html[data-theme="dark"] .masthead__menu,
+html[data-theme="dark"] .greedy-nav,
+html[data-theme="dark"] .greedy-nav .visible-links,
+html[data-theme="dark"] .greedy-nav .hidden-links {
+  background: #000 !important;
+  background-color: #000 !important;
+}
+
+/* Navigation: white in light mode */
+html[data-theme="light"] .masthead,
+html[data-theme="light"] .masthead__inner-wrap,
+html[data-theme="light"] .masthead__menu,
+html[data-theme="light"] .greedy-nav,
+html[data-theme="light"] .greedy-nav .visible-links,
+html[data-theme="light"] .greedy-nav .hidden-links {
+  background: #fff !important;
+  background-color: #fff !important;
+}
+
+/* Keep navigation links readable */
+html[data-theme="dark"] .greedy-nav a {
+  color: #fff !important;
+}
+
+html[data-theme="light"] .greedy-nav a {
+  color: #222 !important;
+}
+
+/* Keep the theme toggle visible */
+#theme-toggle,
+#theme-toggle a,
+#theme-icon {
+  cursor: pointer;
+}
