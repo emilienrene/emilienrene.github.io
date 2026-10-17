@@ -112,3 +112,14 @@ select {
   background: #444444;
   color: #ffffff;
 }
+
+/* Make navigation bar pure black */
+.masthead,
+.masthead__inner-wrap,
+.masthead__menu,
+.greedy-nav,
+.greedy-nav .visible-links,
+.greedy-nav .hidden-links {
+  background: #000 !important;
+  background-color: #000 !important;
+}
