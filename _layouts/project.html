@@ -1,0 +1,59 @@
+---
+layout: default
+---
+
+<div id="main" role="main">
+  <article class="project-page">
+    <header class="project-header">
+      <h1>{{ page.title }}</h1>
+      {% if page.subtitle %}
+        <p class="project-subtitle">{{ page.subtitle }}</p>
+      {% endif %}
+    </header>
+
+    <div class="project-layout">
+      <div class="project-text">
+        <section class="project-section">
+          <h2>The Challenge</h2>
+          {{ page.challenge | markdownify }}
+        </section>
+
+        <section class="project-section">
+          <h2>Approach</h2>
+          {{ page.approach | markdownify }}
+        </section>
+
+        <section class="project-section">
+          <h2>My Contribution</h2>
+          {{ page.contribution | markdownify }}
+        </section>
+      </div>
+
+      <aside class="project-figures">
+        {% for figure in page.figures %}
+          <figure>
+            <img src="{{ figure.image | relative_url }}"
+                 alt="{{ figure.alt | default: figure.caption | escape }}"
+                 loading="lazy">
+            {% if figure.caption %}
+              <figcaption>{{ figure.caption }}</figcaption>
+            {% endif %}
+          </figure>
+        {% endfor %}
+      </aside>
+    </div>
+
+    {% if page.results %}
+      <section class="project-results">
+        <h2>Results and Technical Details</h2>
+        {{ page.results | markdownify }}
+      </section>
+    {% endif %}
+
+    {% if page.repository %}
+      <p class="project-links">
+        <a href="{{ page.repository }}">View Code Repository</a>
+      </p>
+    {% endif %}
+  </article>
+</div>
