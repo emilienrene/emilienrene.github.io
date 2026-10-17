@@ -1,8 +1,8 @@
 /* ========================================
-   GLOBAL BLACK THEME
+   THEME-AWARE CUSTOM STYLING
    ======================================== */
 
-/* Backgrounds */
+/* Use AcademicPages theme variables */
 html,
 body,
 #main,
@@ -13,21 +13,44 @@ body,
 .archive,
 .masthead,
 .masthead__inner-wrap,
+.masthead__menu,
 .greedy-nav,
+.greedy-nav .visible-links,
+.greedy-nav .hidden-links,
 .sidebar,
 .page__footer,
-.page__footer footer {
-  background: #000000 !important;
-  background-color: #000000 !important;
+.page__footer footer,
+.project-page,
+.project-layout,
+.project-text,
+.project-section,
+.project-figures,
+.project-results,
+.project-figures figure {
+  background-color: var(--global-bg-color) !important;
+  color: var(--global-text-color) !important;
 }
 
-/* Theme variables */
-html {
-  --global-bg-color: #000000;
-  --global-text-color: #ffffff;
-  --global-border-color: #333333;
-  --global-link-color: #80bfff;
-  --global-link-color-hover: #b3d9ff;
+/* Navigation */
+.masthead,
+.page__footer {
+  border-color: var(--global-border-color);
+}
+
+.greedy-nav,
+.greedy-nav .visible-links,
+.greedy-nav .hidden-links {
+  background: var(--global-bg-color) !important;
+}
+
+.greedy-nav a,
+.greedy-nav .visible-links a,
+.greedy-nav .hidden-links a {
+  color: var(--global-text-color) !important;
+}
+
+.greedy-nav a:hover {
+  color: var(--global-link-color) !important;
 }
 
 /* Text */
@@ -47,115 +70,37 @@ h3,
 h4,
 h5,
 h6 {
-  color: #ffffff !important;
+  color: var(--global-text-color);
 }
 
 /* Links */
 a {
-  color: #80bfff !important;
+  color: var(--global-link-color);
 }
 
 a:hover {
-  color: #b3d9ff !important;
+  color: var(--global-link-color-hover);
 }
 
-/* Navigation */
-.masthead {
-  border-bottom: 1px solid #333333 !important;
-}
-
-.greedy-nav a,
-.greedy-nav .visible-links a {
-  color: #ffffff !important;
-}
-
-.greedy-nav a:hover {
-  color: #80bfff !important;
-}
-
-/* Footer */
-.page__footer {
-  border-top: 1px solid #333333 !important;
-}
-
-/* Project pages */
-.project-page,
-.project-layout,
-.project-text,
-.project-section,
-.project-figures,
-.project-results {
-  background: #000000 !important;
-  color: #ffffff !important;
-}
-
-/* Images and captions */
+/* Project figures */
 .project-figures figure {
-  background: #000000 !important;
+  background: var(--global-bg-color);
 }
 
 figcaption {
-  color: #bbbbbb !important;
+  opacity: 0.8;
 }
 
 /* Form fields */
 input,
 textarea,
 select {
-  background: #111111 !important;
-  color: #ffffff !important;
-  border: 1px solid #444444 !important;
+  background: var(--global-bg-color);
+  color: var(--global-text-color);
+  border: 1px solid var(--global-border-color);
 }
 
-/* Selection */
-::selection {
-  background: #444444;
-  color: #ffffff;
-}
-
-/* Make navigation bar pure black */
-.masthead,
-.masthead__inner-wrap,
-.masthead__menu,
-.greedy-nav,
-.greedy-nav .visible-links,
-.greedy-nav .hidden-links {
-  background: #000 !important;
-  background-color: #000 !important;
-}
-
-/* Navigation: black in dark mode */
-html[data-theme="dark"] .masthead,
-html[data-theme="dark"] .masthead__inner-wrap,
-html[data-theme="dark"] .masthead__menu,
-html[data-theme="dark"] .greedy-nav,
-html[data-theme="dark"] .greedy-nav .visible-links,
-html[data-theme="dark"] .greedy-nav .hidden-links {
-  background: #000 !important;
-  background-color: #000 !important;
-}
-
-/* Navigation: white in light mode */
-html[data-theme="light"] .masthead,
-html[data-theme="light"] .masthead__inner-wrap,
-html[data-theme="light"] .masthead__menu,
-html[data-theme="light"] .greedy-nav,
-html[data-theme="light"] .greedy-nav .visible-links,
-html[data-theme="light"] .greedy-nav .hidden-links {
-  background: #fff !important;
-  background-color: #fff !important;
-}
-
-/* Keep navigation links readable */
-html[data-theme="dark"] .greedy-nav a {
-  color: #fff !important;
-}
-
-html[data-theme="light"] .greedy-nav a {
-  color: #222 !important;
-}
-
-/* Keep the theme toggle visible */
+/* Theme toggle remains interactive */
 #theme-toggle,
 #theme-toggle a,
 #theme-icon {
