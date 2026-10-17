@@ -17,7 +17,7 @@ results: >
 figures:
   - image: /images/projects/airfoil-validation/prototype.png
     caption: "Airfoil prototype manufactured using SLA 3D printing, polishing and surface coating"
-  - image: /images/projects/airfoil-validation/wind-tunnel.png
+  - image: /images/projects/airfoil-validation/wind-tunnel.jpg
     caption: "Depiction of myself conducting the wind-tunnel experiments"
   - image: /images/projects/airfoil-validation/curve.png
     caption: "Lift-Angle of attack curve obtained for an airspeed of 18.9 m/s"
