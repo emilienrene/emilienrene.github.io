@@ -22,8 +22,7 @@
 
   $inside       : is-inside($span);
   $from         : from($flow);
-  $line         : floor(math.div($context, $n));
-  $symmetrical  : is-symmetrical($columns);
+  $line         : floor($context / $n);  $symmetrical  : is-symmetrical($columns);
 
   $output: (
     width             : null,
