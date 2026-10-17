@@ -88,6 +88,7 @@ publication_category:
     title: 'Conference Papers'
 
 # Site Settings
+site_theme               : "default"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
