@@ -1,170 +1,114 @@
-/* Project page layout */
+/* ========================================
+   GLOBAL BLACK THEME
+   ======================================== */
 
-.project-page {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.project-header {
-  margin-bottom: 2rem;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid #e5e5e5;
-
-  h1 {
-    margin-bottom: 0.5rem;
-  }
-}
-
-.project-subtitle {
-  font-size: 1.1rem;
-  color: #666;
-  margin-top: 0;
-}
-
-.project-layout {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-  gap: 2.5rem;
-  align-items: start;
-}
-
-.project-text {
-  min-width: 0;
-}
-
-.project-section {
-  margin-bottom: 2rem;
-
-  h2 {
-    font-size: 1.25rem;
-    margin-bottom: 0.6rem;
-    padding-bottom: 0.35rem;
-    border-bottom: 1px solid #e5e5e5;
-  }
-
-  p {
-    line-height: 1.7;
-  }
-}
-
-.project-figures {
-  min-width: 0;
-
-  figure {
-    margin: 0 0 1.75rem;
-  }
-
-  img {
-    display: block;
-    width: 100%;
-    height: auto;
-    border-radius: 3px;
-  }
-
-  figcaption {
-    margin-top: 0.5rem;
-    font-size: 0.85rem;
-    line-height: 1.5;
-    color: #666;
-    text-align: center;
-  }
-}
-
-.project-results {
-  margin-top: 2.5rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid #e5e5e5;
-
-  h2 {
-    font-size: 1.4rem;
-  }
-
-  p {
-    line-height: 1.7;
-  }
-
-  img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin: 1.5rem auto;
-  }
-}
-
-.project-links {
-  margin-top: 2rem;
-}
-
-/* Responsive layout */
-
-@media screen and (max-width: 768px) {
-  .project-layout {
-    grid-template-columns: 1fr;
-    gap: 1rem;
-  }
-
-  .project-figures {
-    margin-top: 0.5rem;
-  }
-
-  .project-header h1 {
-    font-size: 1.7rem;
-  }
-}
-
-/* Global black theme */
+/* Backgrounds */
 html,
 body,
 #main,
+.initial-content,
+.page,
+.page__inner-wrap,
+.page__content,
+.archive,
 .masthead,
 .masthead__inner-wrap,
-.page,
-.archive,
-.page__footer {
-  background: #000 !important;
-  color: #fff;
+.greedy-nav,
+.sidebar,
+.page__footer,
+.page__footer footer {
+  background: #000000 !important;
+  background-color: #000000 !important;
 }
 
-body {
-  color: #fff;
+/* Theme variables */
+html {
+  --global-bg-color: #000000;
+  --global-text-color: #ffffff;
+  --global-border-color: #333333;
+  --global-link-color: #80bfff;
+  --global-link-color-hover: #b3d9ff;
 }
 
-h1, h2, h3, h4, h5, h6,
-p, li, label, strong {
-  color: #fff;
+/* Text */
+body,
+p,
+li,
+label,
+strong,
+em,
+blockquote,
+figcaption,
+.page__title,
+.archive__subtitle,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #ffffff !important;
 }
 
+/* Links */
 a {
-  color: #80bfff;
+  color: #80bfff !important;
 }
 
 a:hover {
-  color: #b3d9ff;
+  color: #b3d9ff !important;
 }
 
+/* Navigation */
 .masthead {
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #333333 !important;
 }
 
+.greedy-nav a,
+.greedy-nav .visible-links a {
+  color: #ffffff !important;
+}
+
+.greedy-nav a:hover {
+  color: #80bfff !important;
+}
+
+/* Footer */
 .page__footer {
-  border-top: 1px solid #333;
+  border-top: 1px solid #333333 !important;
 }
 
+/* Project pages */
+.project-page,
+.project-layout,
+.project-text,
 .project-section,
-.project-results,
+.project-figures,
+.project-results {
+  background: #000000 !important;
+  color: #ffffff !important;
+}
+
+/* Images and captions */
 .project-figures figure {
-  background: #000;
-  color: #fff;
+  background: #000000 !important;
 }
 
 figcaption {
-  color: #bbb;
+  color: #bbbbbb !important;
 }
 
+/* Form fields */
 input,
 textarea,
 select {
-  background: #111;
-  color: #fff;
-  border: 1px solid #444;
+  background: #111111 !important;
+  color: #ffffff !important;
+  border: 1px solid #444444 !important;
+}
+
+/* Selection */
+::selection {
+  background: #444444;
+  color: #ffffff;
 }
