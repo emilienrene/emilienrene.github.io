@@ -9,10 +9,10 @@ approach: >
   Metaheuristic search algorithms (MSAs) are investigated for early-stage aerodynamic optimization due to their parallelizability and compatibility with surrogate models. Five MSAs, spanning evolutionary- and swarm-based approaches, are evaluated alongside five geometric parameterization methods, spanning constructive and deformative approaches. A deep learning surrogate model provides low-cost aerodynamic predictions, enabling near-instantaneous evaluations. The resulting 25 optimizer–parameterization combinations are compared across two case studies: partially and fully constrained drag minimization. Results are averaged across random seeds to account for the stochastic nature of MSAs. 
 
 figures:
-  - image: /images/projects/airfoil-optimization/airfoils_25_constrained.pdf
+  - image: /images/projects/airfoil-optimization/airfoils_25_constrained.png
     caption: "Visual depiction of the 25 best-performing airfoils across seeds in the fully-constrained case study"
 
-  - image: /images/projects/airfoil-optimization/matrix_constrained.pdf
+  - image: /images/projects/airfoil-optimization/matrix_constrained.png
     caption: "Obtained performance matrix in the fully-constrained case study"
 
 results: >
