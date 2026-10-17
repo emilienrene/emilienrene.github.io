@@ -3,10 +3,16 @@ layout: project
 title: "Parametric Study of Metaheuristics and Geometric Parameterizations for Airfoil Optimization"
 
 challenge: >
-  In Airfoil Shape Optimization (ASO), the undercharacterized interactions between optimizers and geometric parameterization methods prevent engineers and researchers from making informed decisions when selecting these components for an optimization framework.
+  Despite their growing use, the relative performance of different metaheuristic search algorithms (MSAs), and their interactions with geometric parameterization methods, remain insufficiently understood. Existing studies provide limited guidance on how these two components should be jointly selected, particularly across highly representative design spaces.
 
 approach: >
   Metaheuristic search algorithms (MSAs) are investigated for early-stage aerodynamic optimization due to their parallelizability and compatibility with surrogate models. Five MSAs, spanning evolutionary- and swarm-based approaches, are evaluated alongside five geometric parameterization methods, spanning constructive and deformative approaches. A deep learning surrogate model provides low-cost aerodynamic predictions, enabling near-instantaneous evaluations. The resulting 25 optimizer–parameterization combinations are compared across two case studies: partially and fully constrained drag minimization. Results are averaged across random seeds to account for the stochastic nature of MSAs. 
+
+  The study's contributions are twofold:
+
+  1. **Comparative evaluation:** It investigates how geometric parameterization influences the performance and convergence of five widely used metaheuristic search algorithms (MSAs).
+  2. **Reproducible benchmark:** It establishes a systematic, reproducible $5 \times 5$ benchmark to guide the joint selection of geometric parameterization methods and MSAs for airfoil shape optimization.
+
 
 figures:
   - image: /images/projects/airfoil-optimization/airfoils_25_constrained.png
