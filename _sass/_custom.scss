@@ -111,3 +111,60 @@
     font-size: 1.7rem;
   }
 }
+
+/* Global black theme */
+html,
+body,
+#main,
+.masthead,
+.masthead__inner-wrap,
+.page,
+.archive,
+.page__footer {
+  background: #000 !important;
+  color: #fff;
+}
+
+body {
+  color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6,
+p, li, label, strong {
+  color: #fff;
+}
+
+a {
+  color: #80bfff;
+}
+
+a:hover {
+  color: #b3d9ff;
+}
+
+.masthead {
+  border-bottom: 1px solid #333;
+}
+
+.page__footer {
+  border-top: 1px solid #333;
+}
+
+.project-section,
+.project-results,
+.project-figures figure {
+  background: #000;
+  color: #fff;
+}
+
+figcaption {
+  color: #bbb;
+}
+
+input,
+textarea,
+select {
+  background: #111;
+  color: #fff;
+  border: 1px solid #444;
+}
