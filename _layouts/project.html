@@ -32,9 +32,16 @@ layout: default
       <aside class="project-figures">
         {% for figure in page.figures %}
           <figure>
+            {% if figure.image contains '.pdf' %}
+            <iframe src="{{ figure.image | relative_url }}"
+                    title="{{ figure.caption | escape }}"
+                    width="100%" height="400"
+                    style="border: none;"></iframe>
+            {% else %}
             <img src="{{ figure.image | relative_url }}"
-                 alt="{{ figure.alt | default: figure.caption | escape }}"
-                 loading="lazy">
+                alt="{{ figure.alt | default: figure.caption | escape }}"
+                loading="lazy">
+            {% endif %}
             {% if figure.caption %}
               <figcaption>{{ figure.caption }}</figcaption>
             {% endif %}
