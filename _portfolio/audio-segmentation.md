@@ -15,16 +15,16 @@ figures:
   - image: /images/projects/semantic-audio/flowchart.png
     caption: "Tentative flowchart representation of the pipeline approaches investigated"
 
-  ### References for the Figure
-
-  - Ghinassi, Iacopo, Matthew Purver, Huy Phan, and Chris Newell. “Exploring Pre-Trained Neural Audio Representations for Audio Topic Segmentation.” *2023 IEEE International Conference on Multimedia and Expo (ICME)*, July 2023, 1086–91. [https://doi.org/10.1109/ICME55011.2023.00190](https://doi.org/10.1109/ICME55011.2023.00190).
-
-  - Solbiati, Alessandro, Kevin Heffernan, Georgios Damaskinos, Shivani Poddar, Shubham Modi, and Jacques Cali. “Unsupervised Topic Segmentation of Meetings with BERT Embeddings.” *arXiv*, June 24, 2021. [https://doi.org/10.48550/arXiv.2106.12978](https://doi.org/10.48550/arXiv.2106.12978).
-
 results: >
   Ongoing work. Evaluation of the three segmentation approaches is underway.
 
 repository: "https://github.com/emilienrene/semantic_audio_segmentation"
 ---
+
+### References for the Figure
+
+- Ghinassi, Iacopo, Matthew Purver, Huy Phan, and Chris Newell. “Exploring Pre-Trained Neural Audio Representations for Audio Topic Segmentation.” *2023 IEEE International Conference on Multimedia and Expo (ICME)*, July 2023, 1086–91. [https://doi.org/10.1109/ICME55011.2023.00190](https://doi.org/10.1109/ICME55011.2023.00190).
+
+- Solbiati, Alessandro, Kevin Heffernan, Georgios Damaskinos, Shivani Poddar, Shubham Modi, and Jacques Cali. “Unsupervised Topic Segmentation of Meetings with BERT Embeddings.” *arXiv*, June 24, 2021. [https://doi.org/10.48550/arXiv.2106.12978](https://doi.org/10.48550/arXiv.2106.12978).
 
 Additional technical details, figures, equations, or references can go here.
