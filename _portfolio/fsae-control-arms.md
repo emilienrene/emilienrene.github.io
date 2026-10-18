@@ -3,7 +3,7 @@ layout: project
 title: "Machinable FSAE Suspension Control Arms"
 
 challenge: >
-  Current control arms make repeatable alignment changes difficult, particularly for toe, while manufacturing requires time-consuming tube crushing, notching, manual fitting, and welding. Hence, we need a redesign to enable precise and repeatable adjustments and replace labor-intensive tube fabrication with machined components.
+  Previous control arms made repeatable alignment changes difficult, particularly for toe, while manufacturing required time-consuming tube crushing, notching, manual fitting, and welding. Hence, we needed a redesign to enable precise and repeatable adjustments and replace labor-intensive tube fabrication with machined components.
 
 approach: >
   Through multiple design iterations, we converged on the design shown in the figures below. The uniform thickness of the machined inserts allows each part to be cut from billet stock before machining, reducing material waste and simplifying machining by minimizing the need for setups in different planes. The insert geometry was designed to provide a suitable interface with the tubes, ensuring effective load transfer through the welded joints while keeping stresses within acceptable limits, as verified by FEA. The tubes are designed to be welded along prismatic sections, maximizing weld seam length while limiting manual preparation to cutting the tubes to length and removing rectangular sections at the joints.
