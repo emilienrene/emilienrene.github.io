@@ -4,24 +4,18 @@ title: "Parametric Study of Metaheuristics and Geometric Parameterizations for A
 subtitle: "AI-driven aerodynamic design and shape optimization"
 
 challenge: >
-  [Describe the engineering problem, why it matters, and the limitations
-  of existing approaches.]
+  At a company with over 4,000 employees, the day-to-day work of a flight-testing intern can differ greatly from that of an intern in structural design. With limited time and demanding responsibilities within their own departments, interns have few opportunities to interact with other functions, limiting their exposure to the breadth of expertise and careers available at Airbus. After noticing other interns were facing this issue, I created and led a network for all 135 interns company-wide.
 
 approach: >
-  [Describe the optimization methods, geometric parameterizations,
-  computational tools, and experiments used.]
+  I coordinated with senior engineering managers across departments to organize facility visits, technical presentations, and an end-of-internship networking event attended by over 35 interns. I also established an intern-only communication channel for my cohort and envisioned a sustainable handover process whereby a volunteer from each incoming cohort would maintain the network across semesters.
 
 contribution: >
-  [Specify your individual contributions and the aspects of the project
-  you were responsible for.]
+  I conceived the initiative and secured the support of Nicolas Lavallée, then an engineering manager in Materials and Processes. After launching the project, I partnered with fellow intern Abhishek Dogra to coordinate its execution. I played a leading role in shaping the initiative, driving its development, and bringing it to fruition.
 
 figures:
-  - image: /images/projects/airfoil-optimization/placeholder.png
-    caption: "Placeholder for an airfoil geometry or optimization result."
-    alt: "Placeholder for airfoil optimization visualization"
+  - image: /images/projects/airbus/event.jpg
+    caption: "Depiction of the end-of-internship networking event organized"
 
 results: >
-  [Present key findings, comparisons, plots, or quantitative results when available.]
-
-repository: ""
+  The initiative was formalized at Airbus Canada as the "Intern Connectivity Program" and remains in place today.
 ---
