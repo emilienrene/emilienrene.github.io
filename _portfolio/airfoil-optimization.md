@@ -20,7 +20,7 @@ figures:
     caption: "Visual depiction of the 25 best-performing airfoils across seeds in the fully-constrained case study"
 
   - image: /images/projects/airfoil-optimization/matrix_constrained.png
-    caption: "Obtained performance matrix in the fully-constrained case study"
+    caption: "Obtained performance matrix in the fully-constrained case study, with objective reduction corresponding to drag reduction relative to the optimization baseline, the DAE11 airfoil, and values reported as $\text{mean} \pm \text{standard deviation}$"
 
 results: >
   The benchmark reveals that optimizer performance depends strongly on the geometric parameterization method and the imposed design constraints. CMA-ES consistently performs well, while the fastest-converging methods do not necessarily yield the best aerodynamic solutions. The findings highlight the importance of jointly selecting optimizers and parameterizations for effective airfoil optimization.
