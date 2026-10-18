@@ -11,6 +11,7 @@ approach: >
   The study's contributions are twofold:
 
   1. **Comparative evaluation:** It investigates how geometric parameterization influences the performance and convergence of five widely used metaheuristic search algorithms (MSAs).
+  
   2. **Reproducible benchmark:** It establishes a systematic, reproducible $5 \times 5$ benchmark to guide the joint selection of geometric parameterization methods and MSAs for airfoil shape optimization.
 
 
