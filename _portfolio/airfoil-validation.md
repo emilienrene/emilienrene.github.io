@@ -21,5 +21,6 @@ figures:
     caption: "Depiction of myself conducting the wind-tunnel experiments"
   - image: /images/projects/airfoil-validation/curve.png
     caption: "Lift-Angle of attack curve obtained for an airspeed of 18.9 m/s"
+---
 
 Additional technical details, figures, equations, or references can go here.

@@ -3,7 +3,7 @@ layout: project
 title: "Parametric Study of Metaheuristics and Geometric Parameterizations for Airfoil Optimization"
 
 challenge: >
-  Despite their growing use, the relative performance of different metaheuristic search algorithms (MSAs), and their interactions with geometric parameterization methods, remain insufficiently understood. Existing studies provide limited guidance on how these two components should be jointly selected, particularly across highly representative design spaces.
+  Despite their growing use, the relative performance of different metaheuristic search algorithms (MSAs), and their interactions with geometric parameterization methods, remain insufficiently understood. Existing studies provide limited guidance on how these two components should be jointly selected, particularly across highly representative design spaces. This gap calls for a systematic benchmark to uncover which combinations work best, and why. 
 
 approach: >
   Metaheuristic search algorithms (MSAs) are investigated for early-stage aerodynamic optimization due to their parallelizability and compatibility with surrogate models. Five MSAs, spanning evolutionary- and swarm-based approaches, are evaluated alongside five geometric parameterization methods, spanning constructive and deformative approaches. A deep learning surrogate model provides low-cost aerodynamic predictions, enabling near-instantaneous evaluations. The resulting 25 optimizer–parameterization combinations are compared across two case studies: partially and fully constrained drag minimization. Results are averaged across random seeds to account for the stochastic nature of MSAs. 
