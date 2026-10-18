@@ -1,10 +1,9 @@
 ---
 layout: project
-title: "Parametric Study of Metaheuristics and Geometric Parameterizations for Airfoil Optimization"
-subtitle: "AI-driven aerodynamic design and shape optimization"
+title: "Intern Connectivity Program"
 
 challenge: >
-  At a company with over 4,000 employees, the day-to-day work of a flight-testing intern can differ greatly from that of an intern in structural design. With limited time and demanding responsibilities within their own departments, interns have few opportunities to interact with other functions, limiting their exposure to the breadth of expertise and careers available at Airbus. After noticing other interns were facing this issue, I created and led a network for all 135 interns company-wide.
+  At Airbus Canada, a company with over 4,000 employees, the day-to-day work of a flight-testing intern can differ greatly from that of an intern in structural design. With limited time and demanding responsibilities within their own departments, interns have few opportunities to interact with other functions, limiting their exposure to the breadth of expertise and careers available at Airbus. After noticing other interns were facing this issue, I created and led a network for all 135 interns company-wide.
 
 approach: >
   I coordinated with senior engineering managers across departments to organize facility visits, technical presentations, and an end-of-internship networking event attended by over 35 interns. I also established an intern-only communication channel for my cohort and envisioned a sustainable handover process whereby a volunteer from each incoming cohort would maintain the network across semesters.
