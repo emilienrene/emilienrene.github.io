@@ -29,5 +29,3 @@ repository: https://github.com/emilienrene/metaheuristics_for_airfoil_shape_opti
 contribution: >
   I developed the full codebase from end to end, conducted all studies, and wrote the full manuscript.
 ---
-
-Additional technical details, figures, equations, or references can go here.

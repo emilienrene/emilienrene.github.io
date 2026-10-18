@@ -25,5 +25,3 @@ results: >
 
 repository: ""
 ---
-
-Additional technical details, figures, equations, or references can go here.

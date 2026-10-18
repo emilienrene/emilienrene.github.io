@@ -24,5 +24,3 @@ results: >
 
 repository: "https://github.com/leclaire-polymtl/NoiseBotAI"
 ---
-
-Additional technical details, figures, equations, or references can go here.
