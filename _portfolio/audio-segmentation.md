@@ -13,7 +13,7 @@ contribution: >
 
 figures:
   - image: /images/projects/semantic-audio/flowchart.png
-    caption: "Tentative flowchart representation of the pipeline approaches investigated"
+    caption: "Tentative flowchart representation of multimodal and transcription-based pipeline approaches investigated"
 
 results: >
   Ongoing work. Evaluation of the three segmentation approaches is underway.
