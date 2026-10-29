@@ -23,7 +23,10 @@ figures:
     caption: "Obtained performance matrix in the fully constrained case study, with objective reduction corresponding to drag reduction relative to the optimization baseline, the DAE11 airfoil, and values reported as confidence intervals."
 
 results: >
+  Partial results are shown here for illustrative purposes: full results will be available through the paper once it is published.
+  
   The benchmark reveals that optimizer performance depends strongly on the geometric parameterization method and the imposed design constraints. CMA-ES consistently performs well, while the fastest-converging methods do not necessarily yield the best aerodynamic solutions. The findings highlight the importance of jointly selecting optimizers and parameterizations for effective airfoil optimization.
+  
 repository: https://github.com/emilienrene/metaheuristics_for_airfoil_shape_optimization
 
 contribution: >
