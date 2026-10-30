@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "NoiseBotAI: Deep Learning Models for Urban Acoustic Scene Classification"
+title: "(Page currently under review for confidentiality purposes) NoiseBotAI: Deep Learning Models for Urban Acoustic Scene Classification"
 
 ###This project's page remains under review for confidentiality purposes.
 
