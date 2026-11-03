@@ -20,13 +20,13 @@ repository: "emilienrene/emilienrene.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Émilien"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "Curiosity-driven Mechanical Engineering student with over 2 years of research experience across computational aerodynamics, machine learning and data science."
+  location         : "Switzerland"
+  employer         : "Polytechnique Montreal (currently abroad at EPFL)"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "emilien.rene@epfl.ch" 
 
   # Academic websites
   academia         : # URL
