@@ -1,9 +1,5 @@
 ---
 permalink: /contact/
 title: "Contact"
-author_profile: false
+author_profile: true
 ---
-
-**Email:** emilien.rene@icloud.com
-
-**GitHub:** [emilienrene](https://github.com/emilienrene)

@@ -21,12 +21,12 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Émilien"
-  pronouns         : # example: "she/her"  
+  pronouns         : "he/him" 
   bio              : "Curiosity-driven Mechanical Engineering student with over 2 years of research experience across computational aerodynamics, machine learning and data science."
   location         : "Switzerland"
   employer         : "Polytechnique Montreal (currently abroad at EPFL)"
-  uri              : # URL
-  email            : "emilien.rene@epfl.ch" 
+  uri              : "https://github.com/emilienrene"
+  email            : "emilien.rene@icloud.com" 
 
   # Academic websites
   academia         : # URL
