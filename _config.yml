@@ -19,19 +19,19 @@ repository: "emilienrene/emilienrene.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.PNG"
+  avatar           : "profile.png"
   name             : "Émilien"
   pronouns         : "he/him" 
   bio              : "Curiosity-driven Mechanical Engineering student with over 2 years of research experience across computational aerodynamics, machine learning and data science."
   location         : "Switzerland"
-  employer         : "Polytechnique Montreal (currently abroad at EPFL)"
+  employer         : "Polytechnique Montreal"
   email            : "emilien.rene@icloud.com" 
 
   # Repositories and software development
-  github           : "https://github.com/emilienrene"  
+  github           : https://github.com/emilienrene
 
   # Social media
-  linkedin         : "www.linkedin.com/in/émilien-rené-6572b52bb"
+  linkedin         : www.linkedin.com/in/émilien-rené-6572b52bb
 
 
 # Publication Category - The following the list of publication categories and their headings
