@@ -106,7 +106,12 @@ body.editorial {
     transform: translateY(-50%); transition: transform 180ms ease;
   }
   .page__content h3 a:hover::after, .page__content h3 a:focus-visible::after { transform: translate(5px, -50%); }
-  .title-opening { font-size: 1.35em; font-weight: 500; vertical-align: baseline; }
+  .title-word {
+    font-size: 1.35em; font-weight: 500; vertical-align: baseline;
+    text-transform: uppercase; white-space: nowrap;
+  }
+  .title-word__rest { font-size: 0.8em; vertical-align: baseline; }
+  .title-connector { font-style: italic; font-weight: 400; text-transform: none; }
   .page__content h3 + p {
     max-width: none; padding: 0 54px 23px 12px; margin: 0;
     border-bottom: 1px solid var(--global-border-color);
@@ -138,7 +143,7 @@ body.editorial {
     .page__content h3 { font-size: 21px; padding: 20px 0 6px; }
     .page__content h3 a { padding-right: 30px; }
     .page__content h3 + p { font-size: 17px; padding: 0 30px 20px 0; }
-    .title-opening { font-size: 1.3em; }
+    .title-word { font-size: 1.3em; }
   }
 }
 @media (prefers-reduced-motion: reduce) {
